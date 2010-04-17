@@ -1,0 +1,25 @@
+$Id$
+
+This README relates to the MinGW/build-aux CVS module.
+
+The MinGW/build-aux module is not intended for free-standing use.
+Rather, it serves as a collection point for general purpose code
+components, which are intended to facilitate the development of
+build systems for other modules; as such, individual components
+selected from build-aux may be incorporated into other modules
+by means of appropriate mapping entries in the CVS modules
+database.
+
+Developers wishing to deploy modules from MinGW/build-aux into
+their own MinGW hosted project should consult the administrator,
+to ensure that the appropriate references are established within
+the CVS modules database.
+
+Changes to MinGW/build-aux component modules may be initiated
+from any sandbox of any module which incorporates the affected
+component.  When making any such change, developers are requested
+to please ensure that the ChangeLog within MinGW/build-aux itself
+is appropriately updated.
+
+-- 
+Keith Marshall, 2010-04-16

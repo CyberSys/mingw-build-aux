@@ -1,0 +1,13 @@
+2010-04-16  Keith Marshall  <keithmarshall@users.sourceforge.net>
+
+	Initialise MinGW/build-aux CVS module.
+
+	* build-aux: New CVS module.
+	
+	* README ChangeLog: New files.
+	* m4: New directory; add it.
+	* m4/missing.m4: New file.
+
+	* CVSROOT/modules (modules): New self-referencing module; define it.
+	(missing.m4): New module reference to build-aux/m4/missing.m4; it will
+	incorporate m4/missing.m4 into any module embedding it.
