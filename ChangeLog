@@ -1,3 +1,10 @@
+2010-05-18  Keith Marshall  <keithmarshall@users.sourceforge.net>
+
+	Add canonical sources for GNU config scripts.
+
+	* config.guess, config.sub: New files; copy them from the git
+	repository on savannah.gnu.org
+
 2010-04-16  Keith Marshall  <keithmarshall@users.sourceforge.net>
 
 	Initialise MinGW/build-aux CVS module.
