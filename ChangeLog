@@ -1,3 +1,9 @@
+2010-06-09  Keith Marshall  <keithmarshall@users.sourceforge.net>
+
+	Add install-sh script.
+
+	* install-sh: New file; copy it from autoconf-2.63 sources.
+
 2010-05-18  Keith Marshall  <keithmarshall@users.sourceforge.net>
 
 	Add canonical sources for GNU config scripts.
